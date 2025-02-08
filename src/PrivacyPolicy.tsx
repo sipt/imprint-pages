@@ -1,8 +1,5 @@
 import "./App.css";
-import icon from "./assets/icon-white.svg";
-import twitter from "./assets/Twitter.svg";
-import telegram from "./assets/Telegram.svg";
-
+import icon from "./assets/icon-white.png";
 function PrivatePolicy() {
   return (
     <div className="flex flex-col text-white h-full">
@@ -11,14 +8,7 @@ function PrivatePolicy() {
           <img className="h-[32px]" src={icon} alt="screen short" />
           <div className="font-bold text-white text-2xl ml-4"></div>
         </div>
-        <div className="flex flex-row gap-2">
-          <a href="https://twitter.com/sipt_wu">
-            <img className="h-[32px] w-[32px]" src={twitter} />
-          </a>
-          <a href="https://t.me/+dn8dvhHALP9lZmFl">
-            <img className="h-[32px] w-[32px]" src={telegram} />
-          </a>
-        </div>
+        <div className="flex flex-row gap-2"></div>
       </div>
       <div className="w-full flex p-[24px] md:p-[64px] justify-center">
         <div className="flex flex-col gap-4 max-w-[1024px]">
